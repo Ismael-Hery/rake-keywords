@@ -1,0 +1,7 @@
+{
+  "name": "rake",
+  "description": "Rake keywords extraction algorithme in pure javascrit",
+  "dependencies": {
+    "underscore": "~1.6.0"
+  }
+}
