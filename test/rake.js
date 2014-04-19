@@ -23,9 +23,9 @@ describe('rake algorithm', function() {
 
 		var expected = ['Compatibility', 'systems', 'linear constraints', 'set', 'natural numbers',
 			'Criteria', 'compatibility', 'system', 'linear Diophantine equations', 'strict inequations',
-			'nonstrict inequations', 'Upper bounds', 'components', 'minimal set', 'solutions', 'algorithms',
-			'minimal generating sets', 'solutions', 'systems', 'criteria', 'corresponding algorithms',
-			'constructing', 'minimal supporting set', 'solving', 'systems', 'systems'
+			'nonstrict inequations', 'considered', 'Upper bounds', 'components', 'minimal set', 'solutions', 'algorithms',
+			'construction', 'minimal generating sets', 'solutions', 'types', 'criteria', 'corresponding algorithms',
+			'constructing', 'minimal supporting set', 'solutions', 'solving', 'considered types','mixed types'
 		];
 
 		rake.candidates(text).should.be.eql(expected);
