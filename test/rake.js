@@ -117,9 +117,7 @@ describe('rake algorithm', function() {
 
     var scores = rake.keywordsAndScores(text);
 
-    scores['minimal generating sets'].should.be.eql(8.7);
-    scores['linear diophantine equations'].should.be.eql(8.5);
-    scores['minimal supporting set'].should.be.eql(7.7);
+    scores[0].should.be.eql({keyword: 'minimal generating sets', score:8.7});
   });
 
 });
