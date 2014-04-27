@@ -99,8 +99,6 @@ describe('rake algorithm', function() {
 
     var scores = rake.keywordsAndScores(text);
 
-    console.log(scores);
-
     scores['minimal generating sets'].should.be.eql(8.7);
     scores['linear diophantine equations'].should.be.eql(8.5);
     scores['minimal supporting set'].should.be.eql(7.7);
