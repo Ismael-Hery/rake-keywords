@@ -1,10 +1,24 @@
 {
-  "name": "rake",
-  "description": "Rake keywords extraction algorithme in pure javascrit",
-  "dependencies": {
-    "underscore": "~1.6.0"
+  "name": "rake-keywords",
+  "description": "Rake keywords extraction algorithm in javascrit",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Ismael-Hery/rake.git"
+  },
+  "author": "Ismaël héry <ismael.hery@gmail.com>",
+  "licence": "MIT",
+  "keywords": [
+    "keywords extraction",
+    "keyword extraction",
+    "nlp",
+    "rake"
+  ],
+  "scripts": {
+    "test": "mocha"
   },
   "devDependencies": {
-    "should": "~3.1.3"
+    "should": "~3.1.3",
+    "mocha": "~1.18.2",
   }
 }

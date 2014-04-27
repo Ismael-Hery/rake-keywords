@@ -1,15 +1,31 @@
-rake
+Rake
 ====
 
-Javascript implementation of the "Rake" keywords extraction algorithm
+Rake is a Javascript implementation of the "Rake" keywords extraction algorithm, as described in 'Rose, S., Engel, D., Cramer, N., & Cowley, W. (2010). Automatic Keyword Extraction from Individual Documents. In M. W. Berry & J. Kogan (Eds.), Text Mining: Theory and Applications: John Wiley & Sons.'
+
+## Install
+
+```
+npm install rake-keywords
+```
+
+## How to use
 
 
-# Problems with the Rake original scientific paper :
 
-* numbers is a stop word => natural numbers can not be a candidate keywords. I removed numbers from fox stop list
-* does not find mixed types as a candidate keywords. I've added mixed types as a candidates key words
+## Some problems with the Rake original scientific paper
 
-# TODO :
+### Errors in the paper
 
-* Use a better stop word list
+* 'numbers' is a stop word in the original Fox stop words list, thus 'natural numbers' can not be a candidate keywords. I removed numbers from the Fox stop list as they probably did for the paper (otherwise they would not have found 'natural numbers')
+* the paper does not find mixed types as a candidate keywords. I've added mixed types as a candidates key words
+
+### Non english language
+
+## TODO :
+
 * French implementation with 'mots de liaisons' du/des/... excluded from stop list
+
+## Licence
+
+MIT
