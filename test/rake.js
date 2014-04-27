@@ -3,7 +3,7 @@ var rake = require('../lib/rake');
 
 describe('rake algorithm', function() {
 
-	it('should extract candidate keywords from a single sentence with no punctuation', function() {
+	it('should extract candidate keywords from a single sentence', function() {
 
 		var expected = {
 			candidates: {
@@ -20,6 +20,24 @@ describe('rake algorithm', function() {
 		rake.keywords('Compatibility of systems and linear constraints').should.be.eql(expected);
 
 	});
+
+  it('should take optional stop words array', function() {
+
+    var expected = {
+      candidates: {
+        'compatibility':['compatibility'],
+        'systems':['systems'],
+        'linear constraints':['linear','constraints']},
+      components: {
+        'compatibility':{ frequency:1, degree: 1},
+        'systems':{ frequency:1, degree: 1},
+        'linear':{ frequency:1, degree: 2},
+        'constraints':{ frequency:1, degree: 2}}
+    };
+
+    rake.keywords('Compatibility stop1 systems stop2 linear constraints',['stop1','stop2']).should.be.eql(expected);
+
+  });
 
 	it('should extract candidate keywords from the original example text', function() {
 
