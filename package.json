@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Ismael-Hery/rake.git"
+    "url": "git://github.com/Ismael-Hery/rake-keywords.git"
   },
   "author": "Ismaël héry <ismael.hery@gmail.com>",
   "licence": "MIT",
@@ -20,5 +20,13 @@
   "devDependencies": {
     "should": "~3.1.3",
     "mocha": "~1.18.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Ismael-Hery/rake-keywords/issues"
+  },
+  "homepage": "https://github.com/Ismael-Hery/rake-keywords",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
   }
 }

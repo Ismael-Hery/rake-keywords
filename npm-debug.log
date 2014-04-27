@@ -19,24 +19,24 @@
 7 verbose parsed url   href: '.' }
 8 silly lockFile 3a52ce78- .
 9 verbose lock . /Users/hery/.npm/3a52ce78-.lock
-10 verbose tar pack [ '/var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/tmp.tgz',
+10 verbose tar pack [ '/var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/tmp.tgz',
 10 verbose tar pack   '.' ]
-11 verbose tarball /var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/tmp.tgz
+11 verbose tarball /var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/tmp.tgz
 12 verbose folder .
 13 info prepublish rake-keywords@1.0.0
 14 silly lockFile 1f1177db-tar tar://.
 15 verbose lock tar://. /Users/hery/.npm/1f1177db-tar.lock
-16 silly lockFile c57f3d38-21944-0-6799198754597455-tmp-tgz tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/tmp.tgz
-17 verbose lock tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/tmp.tgz /Users/hery/.npm/c57f3d38-21944-0-6799198754597455-tmp-tgz.lock
+16 silly lockFile c8194178-59135-0-2937454404309392-tmp-tgz tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/tmp.tgz
+17 verbose lock tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/tmp.tgz /Users/hery/.npm/c8194178-59135-0-2937454404309392-tmp-tgz.lock
 18 silly lockFile 1f1177db-tar tar://.
 19 silly lockFile 1f1177db-tar tar://.
-20 silly lockFile c57f3d38-21944-0-6799198754597455-tmp-tgz tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/tmp.tgz
-21 silly lockFile c57f3d38-21944-0-6799198754597455-tmp-tgz tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/tmp.tgz
-22 verbose tar unpack /var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/tmp.tgz
-23 silly lockFile f956f196-21944-0-6799198754597455-package tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/package
-24 verbose lock tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/package /Users/hery/.npm/f956f196-21944-0-6799198754597455-package.lock
-25 silly lockFile c57f3d38-21944-0-6799198754597455-tmp-tgz tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/tmp.tgz
-26 verbose lock tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/tmp.tgz /Users/hery/.npm/c57f3d38-21944-0-6799198754597455-tmp-tgz.lock
+20 silly lockFile c8194178-59135-0-2937454404309392-tmp-tgz tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/tmp.tgz
+21 silly lockFile c8194178-59135-0-2937454404309392-tmp-tgz tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/tmp.tgz
+22 verbose tar unpack /var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/tmp.tgz
+23 silly lockFile 2dc8efa4-59135-0-2937454404309392-package tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/package
+24 verbose lock tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/package /Users/hery/.npm/2dc8efa4-59135-0-2937454404309392-package.lock
+25 silly lockFile c8194178-59135-0-2937454404309392-tmp-tgz tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/tmp.tgz
+26 verbose lock tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/tmp.tgz /Users/hery/.npm/c8194178-59135-0-2937454404309392-tmp-tgz.lock
 27 silly gunzTarPerm modes [ '755', '644' ]
 28 silly gunzTarPerm extractEntry package.json
 29 silly gunzTarPerm extractEntry .npmignore
@@ -44,20 +44,20 @@
 31 silly gunzTarPerm extractEntry lib/foxStopWords.js
 32 silly gunzTarPerm extractEntry lib/rake.js
 33 silly gunzTarPerm extractEntry test/rake.js
-34 silly lockFile f956f196-21944-0-6799198754597455-package tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/package
-35 silly lockFile f956f196-21944-0-6799198754597455-package tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/package
-36 silly lockFile c57f3d38-21944-0-6799198754597455-tmp-tgz tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/tmp.tgz
-37 silly lockFile c57f3d38-21944-0-6799198754597455-tmp-tgz tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/tmp.tgz
+34 silly lockFile 2dc8efa4-59135-0-2937454404309392-package tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/package
+35 silly lockFile 2dc8efa4-59135-0-2937454404309392-package tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/package
+36 silly lockFile c8194178-59135-0-2937454404309392-tmp-tgz tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/tmp.tgz
+37 silly lockFile c8194178-59135-0-2937454404309392-tmp-tgz tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/tmp.tgz
 38 verbose tar pack [ '/Users/hery/.npm/rake-keywords/1.0.0/package.tgz',
-38 verbose tar pack   '/var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/package' ]
+38 verbose tar pack   '/var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/package' ]
 39 verbose tarball /Users/hery/.npm/rake-keywords/1.0.0/package.tgz
-40 verbose folder /var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/package
-41 silly lockFile f956f196-21944-0-6799198754597455-package tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/package
-42 verbose lock tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/package /Users/hery/.npm/f956f196-21944-0-6799198754597455-package.lock
+40 verbose folder /var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/package
+41 silly lockFile 2dc8efa4-59135-0-2937454404309392-package tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/package
+42 verbose lock tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/package /Users/hery/.npm/2dc8efa4-59135-0-2937454404309392-package.lock
 43 silly lockFile 5dbdbb6a--rake-keywords-1-0-0-package-tgz tar:///Users/hery/.npm/rake-keywords/1.0.0/package.tgz
 44 verbose lock tar:///Users/hery/.npm/rake-keywords/1.0.0/package.tgz /Users/hery/.npm/5dbdbb6a--rake-keywords-1-0-0-package-tgz.lock
-45 silly lockFile f956f196-21944-0-6799198754597455-package tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/package
-46 silly lockFile f956f196-21944-0-6799198754597455-package tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8822-e2jizgmm/1398618721944-0.6799198754597455/package
+45 silly lockFile 2dc8efa4-59135-0-2937454404309392-package tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/package
+46 silly lockFile 2dc8efa4-59135-0-2937454404309392-package tar:///var/folders/37/tc7dj6lx1yd68xwsqn56lg2r0000gn/T/npm-8921-aKMcYUC4/1398618959135-0.2937454404309392/package
 47 silly lockFile 5dbdbb6a--rake-keywords-1-0-0-package-tgz tar:///Users/hery/.npm/rake-keywords/1.0.0/package.tgz
 48 silly lockFile 5dbdbb6a--rake-keywords-1-0-0-package-tgz tar:///Users/hery/.npm/rake-keywords/1.0.0/package.tgz
 49 silly lockFile b509a324--npm-rake-keywords-1-0-0-package /Users/hery/.npm/rake-keywords/1.0.0/package
@@ -87,18 +87,22 @@
 73 silly publish { name: 'rake-keywords',
 73 silly publish   description: 'Rake keywords extraction algorithm in javascrit',
 73 silly publish   version: '1.0.0',
-73 silly publish   repository: { type: 'git', url: 'git://github.com/Ismael-Hery/rake.git' },
+73 silly publish   repository:
+73 silly publish    { type: 'git',
+73 silly publish      url: 'git://github.com/Ismael-Hery/rake-keywords.git' },
 73 silly publish   author: { name: 'Ismaël héry', email: 'ismael.hery@gmail.com' },
 73 silly publish   licence: 'MIT',
 73 silly publish   keywords: [ 'keywords extraction', 'keyword extraction', 'nlp', 'rake' ],
 73 silly publish   scripts: { test: 'mocha' },
 73 silly publish   devDependencies: { should: '~3.1.3', mocha: '~1.18.2' },
+73 silly publish   bugs: { url: 'https://github.com/Ismael-Hery/rake-keywords/issues' },
+73 silly publish   homepage: 'https://github.com/Ismael-Hery/rake-keywords',
+73 silly publish   main: 'index.js',
+73 silly publish   directories: { test: 'test' },
 73 silly publish   readme: 'Rake\n====\n\nRake is a Javascript implementation of the "Rake" keywords extraction algorithm, as described in \'Rose, S., Engel, D., Cramer, N., & Cowley, W. (2010). Automatic Keyword Extraction from Individual Documents. In M. W. Berry & J. Kogan (Eds.), Text Mining: Theory and Applications: John Wiley & Sons.\'\n\n## Install\n\n```\nnpm install rake-keywords\n```\n\n## How to use\n\n\n\n## Some problems with the Rake original scientific paper\n\n### Errors in the paper\n\n* \'numbers\' is a stop word in the original Fox stop words list, thus \'natural numbers\' can not be a candidate keywords. I removed numbers from the Fox stop list as they probably did for the paper (otherwise they would not have found \'natural numbers\')\n* the paper does not find mixed types as a candidate keywords. I\'ve added mixed types as a candidates key words\n\n### Non english language\n\n## TODO :\n\n* French implementation with \'mots de liaisons\' du/des/... excluded from stop list\n\n## Licence\n\nMIT\n',
 73 silly publish   readmeFilename: 'README.md',
-73 silly publish   bugs: { url: 'https://github.com/Ismael-Hery/rake/issues' },
-73 silly publish   homepage: 'https://github.com/Ismael-Hery/rake',
 73 silly publish   _id: 'rake-keywords@1.0.0',
-73 silly publish   dist: { shasum: '14231cd2f2442d5a7ef4315923f0406a0aae9bc7' },
+73 silly publish   dist: { shasum: '5fcddbc80fc6bf32bf8bdd78fd95ebfc855169ce' },
 73 silly publish   _from: '.' }
 74 error need auth auth and email required for publishing
 74 error need auth You need to authorize this machine using `npm adduser`
