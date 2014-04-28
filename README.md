@@ -20,6 +20,7 @@ Rake is a Javascript implementation of the "Rake" keywords extraction algorithm,
 
 ## TODO :
 
+* keep case for final Keywords
 * French implementation with 'mots de liaisons' du/des/d'/… excluded from stop list
 * remove verbs at the beginning of end of keywords
 
