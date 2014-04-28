@@ -5,12 +5,8 @@ Rake is a Javascript implementation of the "Rake" keywords extraction algorithm,
 
 ## Install
 
-```
-npm install rake-keywords
-```
 
 ## How to use
-
 
 
 ## Some problems with the Rake original scientific paper
@@ -24,7 +20,8 @@ npm install rake-keywords
 
 ## TODO :
 
-* French implementation with 'mots de liaisons' du/des/... excluded from stop list
+* French implementation with 'mots de liaisons' du/des/d'/… excluded from stop list
+* remove verbs at the beginning of end of keywords
 
 ## Licence
 
