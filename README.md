@@ -3,6 +3,8 @@ Rake
 
 Rake is a Javascript implementation of the "Rake" keywords extraction algorithm, as described in 'Rose, S., Engel, D., Cramer, N., & Cowley, W. (2010). Automatic Keyword Extraction from Individual Documents. In M. W. Berry & J. Kogan (Eds.), Text Mining: Theory and Applications: John Wiley & Sons.'
 
+Test have shown to give equal or better quality of extracted keywords compared to commercial API.
+
 ## Install
 
 
