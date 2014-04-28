@@ -1,7 +1,7 @@
 {
   "name": "rake-keywords",
   "description": "Rake keywords extraction algorithm in javascrit",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/Ismael-Hery/rake-keywords.git"
