@@ -7,9 +7,10 @@ describe('rake algorithm', function() {
 
 		var expected = {
 			candidates: {
-				'compatibility':['compatibility'],
-				'systems':['systems'],
-				'linear constraints':['linear','constraints']},
+				'compatibility':{occurrences: ['Compatibility'], subcomponents: ['compatibility']},
+				'systems':{occurrences: ['systems'], subcomponents: ['systems']},
+				'linear constraints':{occurrences: ['linear constraints'], subcomponents: ['linear','constraints']}
+      },
 			components: {
 				'compatibility':{ frequency:1, degree: 1},
 				'systems':{ frequency:1, degree: 1},
@@ -20,6 +21,25 @@ describe('rake algorithm', function() {
 		rake.keywords('Compatibility of systems and linear constraints').should.be.eql(expected);
 
 	});
+
+  it.only('should manage occurrences with different cases', function() {
+
+    var expected = {
+      candidates: {
+        'compatibility':{occurrences: ['Compatibility','compatibility'], subcomponents: ['compatibility']},
+        'systems':{occurrences: ['systems'], subcomponents: ['systems']},
+        'linear constraints':{occurrences: ['linear constraints'], subcomponents: ['linear','constraints']}
+      },
+      components: {
+        'compatibility':{ frequency:2, degree: 2},
+        'systems':{ frequency:1, degree: 1},
+        'linear':{ frequency:1, degree: 2},
+        'constraints':{ frequency:1, degree: 2}}
+    };
+
+    rake.keywords('Compatibility of systems and linear constraints with compatibility').should.be.eql(expected);
+
+  });
 
   it('should take optional stop words array', function() {
 
