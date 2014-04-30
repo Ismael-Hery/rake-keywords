@@ -140,6 +140,13 @@ describe('rake algorithm', function() {
     var scores = rake.keywordsAndScores(text);
 
     scores[0].should.be.eql({keyword: 'minimal generating sets', score:8.7});
+    //console.log(scores);
+  });
+
+  it('should compute the occurrence with the most of lower cases', function(){
+
+    rake.withMostLowerCase(['TOTo','Toto','TOto']).should.be.eql('Toto');
+
   });
 
 });
