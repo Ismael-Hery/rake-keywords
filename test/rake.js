@@ -22,7 +22,7 @@ describe('rake algorithm', function() {
 
 	});
 
-  it.only('should manage occurrences with different cases', function() {
+  it('should manage occurrences with lower and upper cases occurrences', function() {
 
     var expected = {
       candidates: {
@@ -34,7 +34,8 @@ describe('rake algorithm', function() {
         'compatibility':{ frequency:2, degree: 2},
         'systems':{ frequency:1, degree: 1},
         'linear':{ frequency:1, degree: 2},
-        'constraints':{ frequency:1, degree: 2}}
+        'constraints':{ frequency:1, degree: 2}
+      }
     };
 
     rake.keywords('Compatibility of systems and linear constraints with compatibility').should.be.eql(expected);
@@ -45,9 +46,10 @@ describe('rake algorithm', function() {
 
     var expected = {
       candidates: {
-        'compatibility':['compatibility'],
-        'systems':['systems'],
-        'linear constraints':['linear','constraints']},
+        'compatibility':{occurrences: ['Compatibility'], subcomponents: ['compatibility']},
+        'systems':{occurrences: ['systems'], subcomponents: ['systems']},
+        'linear constraints':{occurrences: ['linear constraints'], subcomponents: ['linear','constraints']}
+      },
       components: {
         'compatibility':{ frequency:1, degree: 1},
         'systems':{ frequency:1, degree: 1},
@@ -59,39 +61,39 @@ describe('rake algorithm', function() {
 
   });
 
-	it('should extract candidate keywords from the original example text', function() {
+  it('should extract candidate keywords from the original example text', function() {
 
 		var text = 'Compatibility of systems of linear constraints over the set of natural numbers\n' +
 				'Criteria of compatibility of a system of linear Diophantine equations, strict inequations, and nonstrict inequations are considered. Upper bounds for components of a minimal set of solutions and algorithms of construction of minimal generating sets of solutions for all types of systems are given. These criteria and the corresponding algorithms for constructing a minimal supporting set of solutions can be used in solving all the considered types of systems and systems of mixed types.';
 
 		var expected = {
 				candidates: {
-					'compatibility':['compatibility'],
-					'systems':['systems'],
-					'linear constraints':['linear','constraints'],
-					'set':['set'],
-					'natural numbers':['natural','numbers'],
-					'criteria': ['criteria'],
-					'system': ['system'],
-					'linear diophantine equations': ['linear','diophantine','equations'],
-					'strict inequations':['strict','inequations'],
-					'nonstrict inequations':['nonstrict','inequations'],
-					'considered':['considered'],
-					'upper bounds':['upper', 'bounds'],
-					'components':['components'],
-					'minimal set':['minimal','set'],
-					'solutions':['solutions'],
-					'algorithms':['algorithms'],
-					'construction':['construction'],
-					'algorithms':['algorithms'],
-					'minimal generating sets':['minimal','generating','sets'],
-					'types':['types'],
-					'corresponding algorithms':['corresponding','algorithms'],
-					'constructing':['constructing'],
-					'minimal supporting set':['minimal','supporting','set'],
-					'solving':['solving'],
-					'considered types':['considered','types'],
-					'mixed types':['mixed','types'],
+					'compatibility':{occurrences: ['Compatibility','compatibility'], subcomponents: ['compatibility']},
+					'systems':{occurrences: ['systems'], subcomponents: ['systems']},
+					'linear constraints':{occurrences: ['linear constraints'], subcomponents: ['linear','constraints']},
+					'set':{occurrences: ['set'], subcomponents: ['set']},
+					'natural numbers':{occurrences: ['natural numbers'], subcomponents: ['natural','numbers']},
+					'criteria':{occurrences: ['Criteria','criteria'], subcomponents:  ['criteria']},
+					'system':{occurrences: ['system'], subcomponents:  ['system']},
+					'linear diophantine equations':{occurrences: ['linear Diophantine equations'], subcomponents:  ['linear','diophantine','equations']},
+					'strict inequations':{occurrences:['strict inequations'], subcomponents: ['strict','inequations']},
+					'nonstrict inequations':{occurrences: ['nonstrict inequations'], subcomponents: ['nonstrict','inequations']},
+					'considered':{occurrences: ['considered'], subcomponents: ['considered']},
+					'upper bounds':{occurrences: ['Upper bounds'], subcomponents: ['upper', 'bounds']},
+					'components':{occurrences: ['components'], subcomponents: ['components']},
+					'minimal set':{occurrences: ['minimal set'], subcomponents: ['minimal','set']},
+					'solutions':{occurrences: ['solutions'], subcomponents: ['solutions']},
+					'algorithms':{occurrences: ['algorithms'], subcomponents: ['algorithms']},
+					'construction':{occurrences: ['construction'], subcomponents: ['construction']},
+					'algorithms':{occurrences: ['algorithms'], subcomponents: ['algorithms']},
+					'minimal generating sets':{occurrences: ['minimal generating sets'], subcomponents: ['minimal','generating','sets']},
+					'types':{occurrences: ['types'], subcomponents: ['types']},
+					'corresponding algorithms':{occurrences: ['corresponding algorithms'], subcomponents: ['corresponding','algorithms']},
+					'constructing':{occurrences: ['constructing'], subcomponents: ['constructing']},
+					'minimal supporting set':{occurrences: ['minimal supporting set'], subcomponents: ['minimal','supporting','set']},
+					'solving':{occurrences: ['solving'], subcomponents: ['solving']},
+					'considered types':{occurrences: ['considered types'], subcomponents: ['considered','types']},
+					'mixed types':{occurrences: ['mixed types'], subcomponents: ['mixed','types']}
 				},
 				components: {
 					'compatibility':{ frequency:2, degree: 2},
