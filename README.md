@@ -26,6 +26,10 @@ Test have shown to give equal or better quality of extracted keywords compared t
 * compute keywords from a corpus of articles (see sci paper with computation of 'essential' keywords)
 * French implementation with 'mots de liaisons' du/des/d'/… excluded from stop list
 
+## Comparison between rake and n-gram approach for cluster of articles keyphrase extraction
+
+* rake may extract keyword 'aa bb cc' in one article but another article contains 'aa bb' and rake does not see 'aa bb' appears in both articles (unless you hack it)
+
 ## Licence
 
 MIT
