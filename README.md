@@ -22,9 +22,9 @@ Test have shown to give equal or better quality of extracted keywords compared t
 
 ## TODO :
 
-* keep case for final Keywords
+* optionnaly exclude 'ing' words (with unit tests)
+* compute keywords from a corpus of articles (see sci paper with computation of 'essential' keywords)
 * French implementation with 'mots de liaisons' du/des/d'/… excluded from stop list
-* remove verbs at the beginning of end of keywords
 
 ## Licence
 
