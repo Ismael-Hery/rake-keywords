@@ -22,13 +22,18 @@ Test have shown to give equal or better quality of extracted keywords compared t
 
 ## TODO :
 
-* optionnaly exclude 'ing' words (with unit tests)
 * compute keywords from a corpus of articles (see sci paper with computation of 'essential' keywords)
 * French implementation with 'mots de liaisons' du/des/d'/… excluded from stop list
+
+## Comparison with keywords extracted from a typical API extraction system (AlchemyAPI for example)
+
+Rake may keep conjugated verbs and '*ing' words that not found in proposition from keyword extraction API
 
 ## Comparison between rake and n-gram approach for cluster of articles keyphrase extraction
 
 * rake may extract keyword 'aa bb cc' in one article but another article contains 'aa bb' and rake does not see 'aa bb' appears in both articles (unless you hack it)
+* you should manage a complexe list of stop words with rake, not necessary with n-gram approach
+* ngram approche cost a lot more in memory by keeping ngram, but maybe an online with pruning approach could improve that. Basic pruning: filter out noisy ngrams, consider only ngram with n between 2 and 4...
 
 ## Licence
 
