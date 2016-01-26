@@ -1,1 +1,1 @@
-module.exports.keywordsAndScores = require('./lib/rake').keywordsAndScores;
+module.exports = require('./lib/rake');
